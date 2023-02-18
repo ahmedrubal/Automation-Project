@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameter" >
+    <parameter name="UserName" value="Rubal"></parameter>
+    <parameter name="Password" value="RubalAhmed"></parameter>
+
+    <test name="Parameter Class" >
+        <classes>
+            <class name ="Testngpackage.Parameter"></class>
+        </classes>
+    </test>
+
+
+</suite>

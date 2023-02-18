@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+
+
+    <test name="Test-1" >
+        <classes>
+           <class name="Testngpackage.Bank">
+               <methods>
+                   <exclude name="login"></exclude>
+               </methods>
+           </class>
+
+     
+            
+        </classes>
+    </test>
+
+
+</suite>

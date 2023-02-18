@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="58" started-at="2020-09-22T21:49:42 EDT" finished-at="2020-09-22T21:49:42 EDT">
+    <groups>
+      <group name="A">
+        <method signature="priorityAndDepend.inbox()[pri:2, instance:Testngpackage.priorityAndDepend@4f7d0008]" name="inbox" class="Testngpackage.priorityAndDepend"/>
+      </group> <!-- A -->
+    </groups>
+    <test name="Test-1" duration-ms="58" started-at="2020-09-22T21:49:42 EDT" finished-at="2020-09-22T21:49:42 EDT">
+      <class name="Testngpackage.priorityAndDepend">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:1, instance:Testngpackage.priorityAndDepend@4f7d0008]" name="login" duration-ms="5" started-at="2020-09-22T21:49:42 EDT" finished-at="2020-09-22T21:49:42 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rubal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ahmed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="inbox()[pri:2, instance:Testngpackage.priorityAndDepend@4f7d0008]" name="inbox" duration-ms="0" started-at="2020-09-22T21:49:42 EDT" finished-at="2020-09-22T21:49:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inbox -->
+        <test-method status="PASS" signature="sent()[pri:3, instance:Testngpackage.priorityAndDepend@4f7d0008]" name="sent" duration-ms="0" depends-on-groups="A" started-at="2020-09-22T21:49:42 EDT" finished-at="2020-09-22T21:49:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sent -->
+        <test-method status="PASS" signature="logout()[pri:4, instance:Testngpackage.priorityAndDepend@4f7d0008]" name="logout" duration-ms="0" started-at="2020-09-22T21:49:42 EDT" finished-at="2020-09-22T21:49:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Testngpackage.priorityAndDepend -->
+    </test> <!-- Test-1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

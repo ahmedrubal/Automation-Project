@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <parameter name="un" value="Rubal"></parameter>
+    <parameter name="pw" value="Ahmed"></parameter>
+    <test name="Test-1" >
+        <classes>
+            <class name ="Testngpackage.priorityAndDepend"></class>
+        </classes>
+    </test>
+
+
+</suite>
